@@ -32,6 +32,7 @@ blur.addEventListener('click', () => {
 btnMes.addEventListener('click', () => {
   feedback.classList.add('feedBack__open')
   aside.classList.remove('header-open')
+  document.getElementById('login-namt').focus({ preventScroll: true })
 })
 
 feedClose.addEventListener('click', () => {
@@ -46,6 +47,7 @@ feedSecClose.addEventListener('click', () => {
 btnCall.addEventListener('click', () => {
   callback.classList.add('callBack__open')
   aside.classList.remove('header-open')
+  document.getElementById('callBack__phone').focus({ preventScroll: true })
 })
 callClose.addEventListener('click', () => {
   callback.classList.remove('callBack__open')

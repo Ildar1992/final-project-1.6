@@ -21,7 +21,7 @@
 @media (min-width: 1440px) {
   .aside {
     position: sticky;
-    height: 100vh;
+    height: 1900px;
   }
   .aside__button-close {
     display: none;
@@ -56,6 +56,7 @@
   height: 40px;
   border: none;
   margin-right: 17px;
+  cursor: pointer;
 }
 .aside__logo {
   margin-right: 79px;
@@ -66,6 +67,7 @@
   width: 40px;
   height: 40px;
   border: none;
+  cursor: pointer;
 }
 .aside__nav {
   display: flex;
@@ -184,6 +186,7 @@
 .header__button {
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 .header-open {
   left: 0;
